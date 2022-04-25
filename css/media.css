@@ -1,0 +1,36 @@
+
+@media(max-width: 1112px){
+    form{
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:1032px){
+    .links__list{
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 768px){ 
+    nav{
+        display: none;
+    }
+    .gender,.process{
+        display: none;
+    }
+    .header__elements{
+        flex-direction: column;
+    }
+    .header__info{
+        width:100%;
+    }
+    .header__foto{
+        width: 100%;
+    }
+}
+@media(max-width:547px){
+    .links__item{
+        text-align: center;
+    }
+    .links__item hr{
+        width: 100%;
+    }
+}
